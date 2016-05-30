@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It weeded out all the lines that had not changed, so I only needed to
+	view a few instead of the whole file.  This can quickly identify typos,
+	and even if there are no outright typos, you can see the differences to 
+	look for logical errors in the changed file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can roll back simply.  You can look at and learn from incremental 
+	improvements, or see how certain changes have muddled things instead of
+	improving.  
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Con: You might forget to save often enough.  
+	Pro: You might not have something saved at an inopportune time.
+	Con: With automatic saves, the arbitrary save point may be meaningless
+	Pro: Your commits have purpose.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is intended for software products, which often have multiple
+	interdependent files.  When changes are made, there is a chance
+	that multiple files needed an edit, and therefore Git saves all files
+	in one project at the time of commit.  This avoids the issue of the
+	user leaving out one or more changed files by having to do it manually,
+	and also is convenient.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log gives you the history of the whole repository.  With good
+	commit comments, you can use the log to find where certain changes
+	were made.  
+	git diff breaks down the differences between two versions, highlighting
+	lines added and lines removed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You don't have to worry about breaking anything.  You are free to experiment
+	and can roll back to the last working build with ease.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Right now, just for learning.  I have always known about Git, just haven't used 
+	it yet.  I'm sure once I'm comfortable, I will use it for all my projects.
