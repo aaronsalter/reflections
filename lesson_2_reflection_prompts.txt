@@ -1,0 +1,45 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When you use the command 'git init' it sets up a directory to be able to 
+	be tracked by git.  It adds the .git directory so that further git commands
+	can be run.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	The staging area is a temporary container to organize the files you
+	want in a commit.  You add files from your working directory to the 
+	staging area, then once you are satisfied with your selections, you commit
+	those selections to the respository.
+	The value is control over which files are included in the commit, and also
+	the fact that you can add and remove without making it permanent until
+	you say so.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+	By only including the files that constitute one logical change. You can
+	use git status to see all the modified files and select one or more to 
+	include in a commit.  Then if there are more than one logical changes,
+	you can select some from the remaining modified files to represent 
+	another logical change, continuing this process until all changes are
+	committed.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+	Branches would be useful if you want to work on a side feature that
+	you may or may not want to include in the project.  They are also good
+	if you want to save a working demo at a certain point, but go on to 
+	continue building an application.
+
+How do the diagrams help you visualize the branch structure?
+
+	The main thing it helped with is how a commit can be unreachable if
+	you checkout a later commit without making your changes a branch.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
