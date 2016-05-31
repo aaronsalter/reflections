@@ -41,9 +41,14 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-	The result is one branch that includes all the commit history from both original branches.  It's represented that way because the merge becomes the new HEAD of branch master.
+	The result is one branch that includes all the commit history from both 
+	original branches.  It's represented that way because the merge becomes
+	the new HEAD of branch master.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
-	I think it's good that git can automate some of the merging, but only where it is painfully obvious.  Anything else should be handled by me.  It would be nice if it could be automated all the way, but thats clearly not possible yet.	
+	I think it's good that git can automate some of the merging, but only 
+	where it is painfully obvious.  Anything else should be handled by me.
+	It would be nice if it could be automated all the way, but thats clearly
+	not possible yet.	
