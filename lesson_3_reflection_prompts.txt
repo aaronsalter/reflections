@@ -15,3 +15,17 @@ stay up-to-date with your remote repository?
 	be the case, just from lack of experience, but I do know that erring on the side of
 	caution is most likely the best route for these situations.  Ultimately, I am in 
 	control of my files and my repos, not Git, and that's how I'd want it.	
+
+Describe the differences between forks, clones, and branches.  When would you use one
+instead of another?
+
+	Cloning is primarily a way to get a repo on your local system to work with.  A fork
+	is a clone that points back to the original repo and allows you to work on your own
+	changes.  With a fork you can also suggest some of your changes for the original.  A
+	branch is more unrelated to clones and forks.  It is merely an alternative path to
+	make changes but not necessarily commit them to the master branch yet.  
+	I would use a clone when I just want to check an existing project out, but not
+	contribute to it.  A fork is for contributing, or just having a public repo based on
+	an existing project, that points back to the original.  Branches are for things like 
+	experimental features that you want to keep track of separate from master, at least
+	temporarily.
