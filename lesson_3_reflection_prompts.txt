@@ -29,3 +29,13 @@ instead of another?
 	an existing project, that points back to the original.  Branches are for things like 
 	experimental features that you want to keep track of separate from master, at least
 	temporarily.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	When the last known state of the remote is stored locally, git knows where you are 
+	in relation to the remote after every commit.  So git status will easily show you
+	how many commits different you are from the last known state of the remote.  Of course,
+	there could be changes on the actual remote that your local git may not know of, but at
+	least you have an idea of how many changes are pending a push from your end.
+
+
