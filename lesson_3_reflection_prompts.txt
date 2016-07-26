@@ -38,4 +38,13 @@ What is the benefit of having a copy of the last known state of the remote store
 	there could be changes on the actual remote that your local git may not know of, but at
 	least you have an idea of how many changes are pending a push from your end.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
+	Without github and git, collaborating would require sharing files and keeping track
+	of local directories with different iterations of the same code manually.  I don't 
+	know that much that would be easier without using github for collaborating.  It would 
+	be harder to communicate effectively enough to match githubs organization of updates.
+	It would be harder to suggest changes and get real time updates from other collaborators.
+	It would be harder to identify changed lines of code.  I mean, I could go on.  It would
+	be more difficult in a lot of ways to try and collaborate without github, but I can't 
+	really think of examples of things that would be easier if you didn't.
